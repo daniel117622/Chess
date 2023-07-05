@@ -82,7 +82,7 @@ app.post('/api/fetch_best_move', (req, res) => {
           return res.status(500).json({ error: 'Failed to parse modified JSON.' });
         }
 
-        console.log('Modified JSON:', modifiedJson);
+        console.log(modifiedJson);
         // Handle the modified JSON as needed
 
         res.sendStatus(200);
