@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@types/chess.js": "^0.13.4",
+    "chess.js": "^1.0.0-beta.6",
+    "chessboardjsx": "^2.4.7",
+    "concurrently": "^8.2.0",
+    "react-chessboard": "^3.1.0"
+  },
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && node server.js",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  }
+}
