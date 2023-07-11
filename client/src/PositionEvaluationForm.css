@@ -1,0 +1,52 @@
+.position-evaluation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    color: #333;
+  }
+  .position-evaluation-form .form-group {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .position-evaluation-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .position-evaluation-form input[type="text"],
+  .position-evaluation-form input[type="range"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .position-evaluation-form .slider-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .position-evaluation-form .slider-value {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .position-evaluation-form .submit-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .position-evaluation-form .submit-button:hover {
+    background-color: #45a049;
+  }
+  

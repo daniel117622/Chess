@@ -1,0 +1,23 @@
+.summary-table {
+    width: 100%;
+  }
+  
+  .piece-values-column,
+  .position-evaluation-column {
+    width: 50%;
+  }
+  
+  .piece-values-column table,
+  .position-evaluation-column table {
+    width: 100%;
+  }
+  
+  .strategy-summary h2 {
+    font-size: 1.2rem;
+  }
+  
+  .strategy-summary th,
+  .strategy-summary td {
+    font-size: 0.9rem;
+  }
+  
