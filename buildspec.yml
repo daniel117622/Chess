@@ -18,13 +18,12 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the client...
-      - cd client
-      - npm start
-      - cd ..
+      - npm run install:client
+      - npm run build:client
       - echo Building the server...
-      - cd server
-      - node server.js
-      - cd ..
+      - npm run install:server
+      - npm run build
+      - npm run start:server
 
 artifacts:
   files:
