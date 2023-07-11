@@ -27,7 +27,7 @@ phases:
       - echo Deployment started on `date`
       - echo Serving the build folder...
       - npm install -g serve
-      - serve -s client/build & serve -s server/build
+      - serve -s client/build -l 3000 & serve -s server/build -l 5000
 artifacts:
   files:
     - '**/*'
