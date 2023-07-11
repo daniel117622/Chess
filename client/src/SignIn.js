@@ -8,7 +8,7 @@ function SignIn() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/sign-in', {
+      const response = await fetch('http://54.211.66.81:5000/sign-in', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

@@ -8,7 +8,7 @@ const port = 5000;
 
 app.use(bodyParser.json());
 const corsOptions = {
-  origin: 'http://localhost:3000', // Replace with your React app's URL
+  origin: 'http://54.211.66.81:3000', // Replace with your React app's URL
   credentials: true, // Allow sending of cookies
   optionsSuccessStatus: 200,
 };
@@ -53,7 +53,7 @@ app.post('/api/fetch_best_move', (req, res) => {
   try {
     const jsonInput = JSON.stringify(json);
     console.log(jsonInput)
-    const pythonProcess = spawn('python', ['script.py', jsonInput]);
+    const pythonProcess = spawn('python3', ['script.py', jsonInput]);
 
     let pythonOutput = '';
 

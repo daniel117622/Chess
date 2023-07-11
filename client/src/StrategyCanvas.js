@@ -50,7 +50,7 @@ const StrategyCanvas = () => {
       const payload ={selectedValues:pieceValues,evaluation:positionEvaluation,fenString:fen} 
   
       // Make the API call to the backend
-      fetch('http://localhost:5000/api/fetch_best_move', {
+      fetch('http://54.211.66.81:5000/api/fetch_best_move', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

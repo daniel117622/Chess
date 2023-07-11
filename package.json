@@ -14,5 +14,19 @@
     "build:client": "cd client && npm run build",
     "install:server": "cd server && npm ci",
     "start:server": "cd server && node server.js"
-  }
+  },
+  "name": "chess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel117622/Chess.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel117622/Chess/issues"
+  },
+  "homepage": "https://github.com/daniel117622/Chess#readme",
+  "description": ""
 }
