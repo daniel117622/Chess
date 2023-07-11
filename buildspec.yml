@@ -19,7 +19,7 @@ phases:
       - echo Build started on `date`
       - echo Building the client...
       - cd client
-      - npm start
+      - npm build
       - cd ..
       - echo Building the server...
       - cd server
