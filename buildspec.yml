@@ -23,8 +23,12 @@ phases:
       - echo Building the server...
       - npm run install:server
       - npm run build
-      - npm run start:server
-
+  post_build:
+    commands:
+      - echo Deployment started on `date`
+      - echo Serving the build folder...
+      - npm install -g serve
+      - serve -s client/build
 artifacts:
   files:
     - '**/*'
