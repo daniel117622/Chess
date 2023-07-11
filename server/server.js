@@ -15,12 +15,6 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-app.use('/static/chess_pieces', (req, res, next) => {
-  const pieceName = req.url.split('/').pop();
-  console.log(`Requested piece: ${pieceName}`);
-  next();
-});
-
 // Serve static files
 app.use(express.static('static'));
 app.use(
@@ -74,18 +68,16 @@ app.post('/api/fetch_best_move', (req, res) => {
 
     pythonProcess.on('close', (code) => {
       if (code === 0) {
-        let modifiedJson;
+        let resJson;
         try {
-          modifiedJson = JSON.parse(pythonOutput);
+          resJson = JSON.parse(pythonOutput);
         } catch (error) {
           console.error('Error parsing modified JSON:', error);
           return res.status(500).json({ error: 'Failed to parse modified JSON.' });
         }
 
-        console.log(modifiedJson);
-        // Handle the modified JSON as needed
-
-        res.sendStatus(200);
+        console.log(resJson);
+        res.status(200).send(resJson);
       } else {
         console.error('Python script process exited with code', code);
         res.status(500).json({ error: 'Python script process exited with an error.' });
