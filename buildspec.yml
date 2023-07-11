@@ -1,0 +1,36 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      # Install dependencies for both client and server
+      - cd client && npm ci
+      - cd ../server && npm ci
+      - cd ..
+
+  pre_build:
+    commands:
+      # Optional: Run tests or other commands before building your project
+      - echo Running pre_build commands...
+
+  build:
+    commands:
+      # Build your project. Update these commands to match your build system if needed
+      - echo Building the project...
+      - cd client && npm run build
+      - cd ../server && npm run build
+
+  post_build:
+    commands:
+      # Optional: Run any commands after building your project
+      - echo Build completed on `date`
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'client/build'
+
+cache:
+  paths:
+    - 'client/node_modules/**/*'
+    - 'server/node_modules/**/*'
