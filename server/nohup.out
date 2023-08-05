@@ -1,0 +1,12 @@
+
+> server@1.0.0 start
+> node server.js
+
+Server running at http://localhost:5000
+npm ERR! path /home/ubuntu/Chess/server
+npm ERR! command failed
+npm ERR! signal SIGHUP
+npm ERR! command sh -c node server.js
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2023-07-13T20_05_36_139Z-debug-0.log

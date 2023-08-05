@@ -1,0 +1,322 @@
+
+> client@0.1.0 start
+> react-scripts start
+
+Admin permissions are required to run a server on a port below 1024.
+
+> client@0.1.0 start
+> react-scripts start
+
+(node:40524) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:40524) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:80
+  On Your Network:  http://172.31.83.116:80
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+URIError: Failed to decode param '/%C0'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/Chess/client/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+URIError: Failed to decode param '/%C0'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:123:27)
+    at matchLayer (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:585:18)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:226:15)
+    at expressInit (/home/ubuntu/Chess/client/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
+ForbiddenError: Forbidden
+    at /home/ubuntu/Chess/client/node_modules/serve-index/index.js:125:19
+    at middleware (/home/ubuntu/Chess/client/node_modules/webpack-dev-server/lib/Server.js:2458:18)
+    at Layer.handle [as handle_request] (/home/ubuntu/Chess/client/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:328:13)
+    at /home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/ubuntu/Chess/client/node_modules/express/lib/router/index.js:280:10)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/home/ubuntu/Chess/client/node_modules/send/index.js:270:17)
+Error: ENAMETOOLONG: name too long, stat '/home/ubuntu/Chess/client/public/${Class.forName("com.opensymphony.webwork.ServletActionContext").getMethod("getResponse",null).invoke(null,null).setHeader("X-Cmd-Response",Class.forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("nashorn").eval("var d='';var i = java.lang.Runtime.getRuntime().exec('echo vulnerable-status-determined-by-nexpose').getInputStream(); while(i.available())d+=String.fromCharCode(i.read());d"))}/'
